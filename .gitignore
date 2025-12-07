@@ -1,0 +1,6 @@
+.env.*
+test_data
+train_data
+train_data_ppg
+venv
+__pycache__
