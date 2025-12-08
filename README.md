@@ -344,4 +344,18 @@ python realtime_ppg.py
 python realtime_ppg.py --video test_data/male_25_70_14.6.mp4 --fs 60
 ```
 
+# Redeploy the latest code and model
+
+## Restart the service
+
+```
+sudo systemctl restart hbapi
+```
+
+## Check the service status
+
+```
+sudo systemctl status hbapi
+```
+
 **Made with ❤️ for non-invasive health monitoring**
